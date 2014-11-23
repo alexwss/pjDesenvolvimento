@@ -1,6 +1,6 @@
 ﻿namespace pjMinhaAplicacao
 {
-    partial class frmCadPaciente
+    partial class FrmConsPacientes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnPesquisaPaciente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnPesquisaPaciente
-            // 
-            this.btnPesquisaPaciente.Location = new System.Drawing.Point(639, 48);
-            this.btnPesquisaPaciente.Name = "btnPesquisaPaciente";
-            this.btnPesquisaPaciente.Size = new System.Drawing.Size(133, 42);
-            this.btnPesquisaPaciente.TabIndex = 0;
-            this.btnPesquisaPaciente.Text = "Pesquisar";
-            this.btnPesquisaPaciente.UseVisualStyleBackColor = true;
-            this.btnPesquisaPaciente.Click += new System.EventHandler(this.btnPesquisaPaciente_Click);
-            // 
-            // frmCadPaciente
+            // FrmConsPacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.btnPesquisaPaciente);
-            this.Name = "frmCadPaciente";
+            this.ClientSize = new System.Drawing.Size(784, 361);
+            this.Name = "FrmConsPacientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cadastro de Pacientes";
+            this.Text = "FrmConsPacientes";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnPesquisaPaciente;
     }
 }

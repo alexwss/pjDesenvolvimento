@@ -16,5 +16,19 @@ namespace pjMinhaAplicacao
         {
             InitializeComponent();
         }
+
+        private void btnPesquisaPaciente_Click(object sender, EventArgs e)
+        {
+            FrmConsPacientes novaConsPaciente = new FrmConsPacientes();
+
+            if (Application.OpenForms.OfType<FrmConsPacientes>().Count() < 1)
+            {
+                novaConsPaciente.Show();
+            }
+            else
+            {
+                MessageBox.Show("Já está aberto Caro Usuário!");
+            }
+        }
     }
 }

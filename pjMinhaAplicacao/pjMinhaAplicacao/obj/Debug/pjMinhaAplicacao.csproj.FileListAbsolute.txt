@@ -7,3 +7,4 @@ C:\Users\Alex\Documents\GitHub\pjDesenvolvimento\pjMinhaAplicacao\pjMinhaAplicac
 C:\Users\Alex\Documents\GitHub\pjDesenvolvimento\pjMinhaAplicacao\pjMinhaAplicacao\obj\Debug\pjMinhaAplicacao.exe
 C:\Users\Alex\Documents\GitHub\pjDesenvolvimento\pjMinhaAplicacao\pjMinhaAplicacao\obj\Debug\pjMinhaAplicacao.pdb
 C:\Users\Alex\Documents\GitHub\pjDesenvolvimento\pjMinhaAplicacao\pjMinhaAplicacao\obj\Debug\pjMinhaAplicacao.frmCadPaciente.resources
+C:\Users\Alex\Documents\GitHub\pjDesenvolvimento\pjMinhaAplicacao\pjMinhaAplicacao\obj\Debug\pjMinhaAplicacao.FrmConsPacientes.resources

@@ -50,6 +50,12 @@
     <Compile Include="frmCadPaciente.Designer.cs">
       <DependentUpon>frmCadPaciente.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConsPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsPacientes.Designer.cs">
+      <DependentUpon>FrmConsPacientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     </Compile>
     <EmbeddedResource Include="frmCadPaciente.resx">
       <DependentUpon>frmCadPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsPacientes.resx">
+      <DependentUpon>FrmConsPacientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
