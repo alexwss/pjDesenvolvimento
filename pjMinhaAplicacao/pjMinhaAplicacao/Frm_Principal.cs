@@ -19,7 +19,7 @@ namespace pjMinhaAplicacao
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Mensagem de inicialização antes de executar a tela #13");
+            MessageBox.Show("Mensagem de inicialização antes de executar a tela","Atenção abestado", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
