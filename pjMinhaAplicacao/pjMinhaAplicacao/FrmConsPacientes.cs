@@ -16,5 +16,25 @@ namespace pjMinhaAplicacao
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void FrmConsPacientes_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'tESTEDataSet.NOME_PACIENTE' table. You can move, or remove it, as needed.
+           // this.nOME_PACIENTETableAdapter.Fill(this.tESTEDataSet.NOME_PACIENTE);
+              this.nOME_PACIENTETableAdapter.Fill(this.tESTEDataSet.NOME_PACIENTE);
+        }
+
+        private void btnPesquisarPacientes_Click(object sender, EventArgs e)
+        {
+            if (txtPesquisa.Text !=  "" )
+            {
+                dtgConsultaPacientes.DataSource = nOME_PACIENTETableAdapter.CarregaPaciente(txtPesquisa.Text);
+            }
+        }
     }
 }

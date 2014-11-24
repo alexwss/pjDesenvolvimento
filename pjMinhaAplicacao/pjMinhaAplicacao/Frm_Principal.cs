@@ -33,7 +33,7 @@ namespace pjMinhaAplicacao
 
              if  (novoCadCliente.Created == false)
             {
-                novoCadCliente.Show();
+                novoCadCliente.ShowDialog();
             }
         }
     }
